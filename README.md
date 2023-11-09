@@ -1,6 +1,6 @@
 # Accelerometer Sample
 
-This sample shows how to read the accelerometer sensor on Windows Phone 7.
+This sample shows how to read the accelerometer sensor on an Android device
 
 ## Sample Overview
 
