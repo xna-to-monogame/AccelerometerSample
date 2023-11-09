@@ -1,3 +1,6 @@
+> ⚠ Caution
+> This has not been ported to MonoGame yet. Check status on [Project Board](https://github.com/orgs/xna-to-monogame/projects/1/views/1)
+
 # Accelerometer Sample
 
 This sample shows how to read the accelerometer sensor on an Android device
