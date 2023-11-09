@@ -1,6 +1,3 @@
-> ⚠ Caution
-> This has not been ported to MonoGame yet. Check status on [Project Board](https://github.com/orgs/xna-to-monogame/projects/1/views/1)
-
 # Accelerometer Sample
 
 This sample shows how to read the accelerometer sensor on an Android device
@@ -20,8 +17,6 @@ This sample uses the following keyboard and gamepad controls.
 #How the Sample Works
 
 The accelerometer sample utilizes the static Accelerometer class provided in the sample. After calling **Accelerometer.Initialize**, the accelerometer can be polled by calling **Accelerometer.GetState**. In the **Game.Update** function, the X and Y acceleration values are used to update the velocity and position of the sprite so that it slides around the screen as if on an angled surface.
-
- 
 
 When using the Emulator, the controls for manipulating the sprite will not remain consitent when rotating the Emulator. This is because the accelerometer values are not modified inside the emulator to take orientation into account.
 
